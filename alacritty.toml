@@ -1,0 +1,25 @@
+import = [
+  # uncomment the flavour you want below:
+  #"~/.config/alacritty/catppuccin-latte.toml",
+  #"~/.config/alacritty/catppuccin-frappe.toml",
+  #"~/.config/alacritty/catppuccin-macchiato.toml",
+  "~/.config/alacritty/catppuccin-mocha.toml",
+]
+
+[window]
+decorations = "None"
+padding = { x = 4, y = 4 }
+opacity = 0.9
+# importing catpuccine theme below here
+
+[shell]
+program = "/bin/zsh"
+args = ["-l", "-c", "tmux attach || tmux"]
+
+[font]
+normal = { family = "FiraCode Nerd Font", style = "Regular" }
+size = 12.0
+bold = { family = "FiraCode Nerd Font", style = "Bold" }
+italic = { family = "FiraCode Nerd Font", style = "Italic" }
+
+glyph_offset = { x = 1, y = 1 }
